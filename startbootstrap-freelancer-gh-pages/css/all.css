@@ -1,7 +1,6 @@
 .portfolio-link>.img-responsive {
 	display:inline;
 }
-
 .portfolio-item {
 	text-align: center;
 	height: 250px;
@@ -11,7 +10,7 @@
 }
 .portfolio-item.text {
 	text-align: left;
-	display:table
+	display:table;
 }
 .portfolio-item.text p{
 	display:table-cell;
