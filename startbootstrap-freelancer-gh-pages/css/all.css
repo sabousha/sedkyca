@@ -2,19 +2,6 @@
 	display:inline;
 }
 
-.portfolio-item {
+.col-sm-4.portfolio-item {
 	text-align: center;
-	height: 250px;
-}
-.portfolio-item .portfolio-link .img-responsive {
-	float:right;
-	padding-right:15%;
-}
-.portfolio-item.text {
-	text-align: left;
-	display:table
-}
-.portfolio-item.text p{
-	display:table-cell;
-	vertical-align:middle;
 }
