@@ -7,13 +7,35 @@
 .portfolio-link>.img-responsive {
 	display:inline;
 }
+#portfolio .portfolio-item .portfolio-link .caption.non-link{
+	opacity: 0;
+}
+.List-Content {
+	border-style:solid;
+	border-radius:21px;
+	padding:25px;
+	margin-top:25px;
+}
+.modal-close-btn{
+	margin:40px;
+}
 .portfolio-item {
 	text-align: center;
 	height: 250px;
 }
+.modal-img-sample {
+	border-style:solid;
+	border-width:20px;
+}
 .portfolio-item.text {
 	text-align: left;
 	display:table;
+}
+.challenge-p-txt-header{
+	text-align:left;
+}
+.text-align-left{
+	text-align:left;
 }
 .portfolio-item.text p{
 	display:table-cell;
