@@ -13,6 +13,9 @@
 header {
 	height: 100vh;
 }
+header .intro-text .name {
+	font-size: 2.5em;
+}
 .profile-pic-circle{
 	border-radius: 50%;
 }
