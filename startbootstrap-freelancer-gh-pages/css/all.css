@@ -59,6 +59,12 @@ header .intro-text .name {
 .contactSectionFooter p{
 	margin: 0;
 }
+.malak {
+	position: sticky;
+}
+.malak-text {
+	color: #233140;
+}
 .bold-bigger {
 	font-size: 1.1em;
 }
