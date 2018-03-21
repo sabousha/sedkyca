@@ -81,3 +81,37 @@ header .intro-text .name {
 		display:none;
 	}
 }
+/** VIDEO **/
+* {
+	margin: 0; padding: 0;
+}
+
+#container {
+	overflow: hidden;
+	height: 400px;
+	background: #edeae8;
+	position: relative;
+}
+
+video {
+	position: fixed;
+
+	/* Horizontally center*/
+	left: 50%;
+	transform: translateX(-50%);
+
+	/* Could do vertial centering too, depending upon your requirements:
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    But in practise I noticed just `top: 0;` fulfills our expectations pretty well (obviously will vary from video to video)
+    */
+	top: 0;
+}
+
+#overlay {
+	position: absolute;
+	top: 0; right: 0; left: 0; bottom: 0;
+
+	background: rgba(0,0,0,0.5);
+}
