@@ -1,7 +1,7 @@
 www.sedky.ca
 
 Written using 
-Bootstrap
+Bootstrap,
 Javascript / Jquery 
 
 Based off "Start Bootstrap" freelancer theme.
