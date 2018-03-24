@@ -16,6 +16,15 @@ header {
 header .intro-text .name {
 	font-size: 2.5em;
 }
+header div#maincontent {
+	position: relative;
+	height: 100vh;
+}
+header .button-wrapper {
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+}
 .profile-pic-circle{
 	border-radius: 50%;
 }

@@ -41,6 +41,25 @@
         });
     });
 
+    // Header move down button
+    var $move_down = $("#move_down"),
+        animationDelay = 500;
+
+    // Setting click action
+    $("#move_down").click(function (){ $('html, body').animate({
+        scrollTop: $("#portfolio").offset().top - 69}, 900);});
+
+    // Intro Animations
+    $move_down.delay(animationDelay).animate({ color: "white" }, animationDelay);
+    //Home pad Down Arrow Button Animation
+    $move_down.mouseenter(function () {
+
+        $move_down.animate({backgroundColor: "#005dce", color: "black"}, 150);
+    }).mouseleave(function () {
+
+        $move_down.animate({backgroundColor: "black", color: "white"}, 100);
+    });
+
     var video = document.querySelector('video')
         , container = document.querySelector('#overlay');
 
