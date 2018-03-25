@@ -23,8 +23,6 @@ $headers .= "Reply-To: $email_address";
 $headers .= 'X-Mailer: PHP/' . phpversion();
 $headers .= "Content-Type: multipart/mixed";
 
-ini_set('SMTP','smtp.live.com');
-ini_set('smtp_port',25);
 
 if (mail($to,$email_subject,$email_body,$headers))
 {
