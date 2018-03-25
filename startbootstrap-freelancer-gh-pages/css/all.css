@@ -25,6 +25,16 @@ header .button-wrapper {
 	bottom: 30px;
 	width: 100%;
 }
+header button#move_down {
+	background-color: white;
+	width: 55px;
+	color: black;
+	border-radius: 10%;
+}
+header button#move_down h1#move_down_id {
+	line-height: 1.5;
+	font-size: 2em;
+}
 .profile-pic-circle{
 	border-radius: 50%;
 }
@@ -33,6 +43,11 @@ header .button-wrapper {
 }
 #portfolio .portfolio-item .portfolio-link .caption.non-link{
 	opacity: 0;
+}
+#portfolio {
+	background-color: white;
+	position: relative;
+	min-height: 100vh;
 }
 .List-Content {
 	border-style:solid;
@@ -65,6 +80,16 @@ header .button-wrapper {
 	display:table-cell;
 	vertical-align:middle;
 }
+section#contact {
+	position: relative;
+}
+section#contact div.container{
+	background-color: white;
+}
+section#contact div.container h2.section-header {
+	margin-top: 50px;
+}
+
 .contactSectionFooter p{
 	margin: 0;
 }
