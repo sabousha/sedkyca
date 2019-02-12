@@ -131,3 +131,8 @@ section#contact div.container h2.section-header {
 	background: #18BC9C;
 	opacity: 0.3;
 }
+
+.skills-bp {
+	display: inline-block;
+    text-align: left;
+}
