@@ -4,6 +4,9 @@
   "version": "3.3.7+1",
   "homepage": "http://startbootstrap.com/template-overviews/freelancer",
   "author": "Start Bootstrap",
+  "scripts": {
+    "start": "gulp dev"
+  },
   "license": {
     "type": "MIT",
     "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
