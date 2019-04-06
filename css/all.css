@@ -136,3 +136,9 @@ section#contact div.container h2.section-header {
 	display: inline-block;
     text-align: left;
 }
+
+#mission, #mission hr.star-primary {
+	background-color: #18BC9C;
+	border-color:white;
+	color: white;
+}
